@@ -32,7 +32,7 @@ export default function Home() {
             <a href="https://www.instagram.com/aditya_vagarwal"><FiInstagram color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
             <a href="mailto:adi247u@gmail.com"><MdOutlineEmail color="#91EAE4" className='mx-3 mr-3 my-5 h-5 w-5'/></a>
         </div>
-            <span className='text-[#8892b0] py-4 max-w-[700px] animate-pulse'>
+            <span className='text-[#8892b0] py-4 max-w-[700px]'>
               Tech I've Explored
             </span>
         <div className='flex'>
