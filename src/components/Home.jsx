@@ -1,7 +1,9 @@
 import React from 'react';
-import {FiLinkedin, FiGithub, FiInstagram, FiMail, FiTwitter} from 'react-icons/fi'
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import {FiLinkedin, FiGithub, FiInstagram,} from 'react-icons/fi'
+import {FaJava,FaHtml5,FaReact,FaNodeJs} from 'react-icons/fa'
 import { Fade} from 'react-reveal'
+import { DiGit, DiCss3Full } from 'react-icons/di';
+import { SiBootstrap,SiTailwindcss,SiSpringboot} from 'react-icons/si'
 
 export default function Home() {
   return (
@@ -22,12 +24,26 @@ export default function Home() {
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
         Computer Science Engineering Undergraduate from SRMIST, India. 
-        Currently exploring the ins and outs of Web Development. 
+        <br/>Currently exploring the ins and outs of Web Development. 
         </p>
         <div className='flex'>
             <a href="https://github.com/adityavag"><FiGithub color="#91EAE4" className='mr-3 my-5 h-5 w-5'/></a>
             <a href="https://www.linkedin.com/in/adityacse"><FiLinkedin color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
             <a href="https://www.instagram.com/aditya_vagarwal"><FiInstagram color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
+        </div>
+            <span className='text-[#8892b0] py-4 max-w-[700px] animate-pulse'>
+              Tech I've Explored
+            </span>
+        <div className='flex'>
+            <span className='mr-3    w-5'><DiGit color="#91EAE4" className='animate-pulse    h-5 w-5'/></span>
+            <span className='mr-3    w-5'><FaJava color="#91EAE4" className='animate-pulse   h-5 w-5'/></span>
+            <span className='mr-3    w-5'><SiTailwindcss color="#91EAE4" className='animate-pulse  h-5 w-5'/></span>
+            <span className='mr-3    w-5'><SiBootstrap color="#91EAE4" className='animate-pulse   h-5 w-5'/></span>
+            <span className='mr-3    w-5'><FaHtml5 color="#91EAE4" className='animate-pulse   h-5 w-5'/></span>
+            <span className='mr-3    w-5'><DiCss3Full color="#91EAE4" className='animate-pulse  h-5 w-5'/></span>
+            <span className='mr-3    w-5'><FaReact color="#91EAE4" className='animate-pulse   h-5 w-5'/></span>
+            <span className='mr-3    w-5'><FaNodeJs color="#91EAE4" className='animate-pulse  h-5 w-5'/></span>
+            <span className='mr-3    w-5'><SiSpringboot color="#91EAE4" className='animate-pulse  h-5 w-5'/></span>
         </div>
       </div>
     </div>
