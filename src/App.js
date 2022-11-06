@@ -1,14 +1,10 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer';
-import Home from './components/Home';
-import './App.css';
-
+import Home from "./components/Home";
+import Skills from "./components/Skills"
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <Footer/>
+      <Home />
+      <Skills/>
     </div>
   );
 }
