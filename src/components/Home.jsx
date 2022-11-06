@@ -24,7 +24,6 @@ export default function Home() {
         Computer Science Engineering Undergraduate from SRMIST, India. 
         Currently exploring the ins and outs of Web Development. 
         </p>
-        <div className='lg:hidden flex items-center text-sm mt-5'><FiMail className='mr-2 h-5 w-5'/>kpjtofficial@gmail.com</div>
         <div className='flex'>
             <a href="https://github.com/adityavag"><FiGithub color="#91EAE4" className='mr-3 my-5 h-5 w-5'/></a>
             <a href="https://www.linkedin.com/in/adityacse"><FiLinkedin color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
@@ -32,7 +31,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-  );
     </Fade>
   )
 }
