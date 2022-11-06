@@ -3,6 +3,7 @@ import {FiLinkedin, FiGithub, FiInstagram,} from 'react-icons/fi'
 import {FaJava,FaHtml5,FaReact,FaNodeJs} from 'react-icons/fa'
 import {Fade} from 'react-reveal'
 import { DiGit, DiCss3Full } from 'react-icons/di'
+import { BsCodeSlash } from 'react-icons/bs';
 import { MdOutlineEmail } from 'react-icons/md'
 import { SiBootstrap,SiTailwindcss,SiSpringboot,SiJavascript,SiCplusplus} from 'react-icons/si'
 export default function Home() {
@@ -49,6 +50,9 @@ export default function Home() {
             <span className='mr-3    w-5'><SiSpringboot color="#91EAE4" className='animate-pulse  h-5 w-5'/></span>
         </div>
       </div>
+    <div className='flex flex-col items-center  bg-[#191b24] w-full py-2'>
+        <a href="https://github.com/adityavag/portfolio"><BsCodeSlash className='animate-pulse text-[#ccd6f6]'/></a>
+    </div>
     </div>
     </Fade>
   )
