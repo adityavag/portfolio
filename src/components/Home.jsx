@@ -1,7 +1,7 @@
 import React from 'react';
 import {FiLinkedin, FiGithub, FiInstagram,} from 'react-icons/fi'
 import {FaJava,FaHtml5,FaReact,FaNodeJs} from 'react-icons/fa'
-import { Fade} from 'react-reveal'
+import {Fade} from 'react-reveal'
 import { DiGit, DiCss3Full } from 'react-icons/di'
 import { MdOutlineEmail } from 'react-icons/md'
 import { SiBootstrap,SiTailwindcss,SiSpringboot,SiJavascript,SiCplusplus} from 'react-icons/si'
