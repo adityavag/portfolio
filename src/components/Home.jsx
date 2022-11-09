@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 import { DiGit, DiCss3Full } from 'react-icons/di'
 import { BsCodeSlash } from 'react-icons/bs';
 import { MdOutlineEmail } from 'react-icons/md'
-import { SiBootstrap,SiTailwindcss,SiSpringboot,SiJavascript,SiCplusplus} from 'react-icons/si'
+import { SiBootstrap,SiTailwindcss,SiLeetcode,SiSpringboot,SiJavascript,SiCplusplus} from 'react-icons/si'
 export default function Home() {
   return (
     <Fade left>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className='flex'>
             <a href="https://github.com/adityavag"><FiGithub color="#91EAE4" className='mr-3 my-5 h-5 w-5'/></a>
             <a href="https://www.linkedin.com/in/adityacse"><FiLinkedin color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
-            <a href="https://www.instagram.com/aditya_vagarwal"><FiInstagram color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
+            <a href="https://leetcode.com/adi247u/"><SiLeetcode color="#91EAE4" className='mx-3 my-5 h-5 w-5'/></a>
             <a href="mailto:adi247u@gmail.com"><MdOutlineEmail color="#91EAE4" className='mx-3 mr-3 my-5 h-5 w-5'/></a>
         </div>
             <span className='text-[#8892b0] py-4 max-w-[700px]'>
